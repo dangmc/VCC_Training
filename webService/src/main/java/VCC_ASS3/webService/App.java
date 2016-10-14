@@ -30,7 +30,7 @@ public class App
 			       } 
 			   });
 		  
-    	setPort(9090);
+    	setPort(8899);
     	get("/TinhGiaThua", (request, response)->{
     		  
     		  String id = request.queryParams("n");
